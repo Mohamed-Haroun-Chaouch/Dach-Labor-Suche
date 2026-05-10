@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DACH Laborsuche | Bahmann Coaching</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <header>
+                <h1>Laborsuche</h1>
+                <p>DEXA & Blutuntersuchungen</p>
+            </header>
+
+            <div class="city-selector">
+                <h3>Region wählen</h3>
+                <select id="city-dropdown">
+                    <option value="DACH">DACH-Region (Übersicht)</option>
+                    <option value="Berlin">Berlin</option>
+                    <option value="Hannover">Hannover</option>
+                    <option value="Hamburg">Hamburg</option>
+                    <option value="München">München</option>
+                    <option value="Frankfurt">Frankfurt</option>
+                    <option value="Köln">Köln</option>
+                    <option value="Stuttgart">Stuttgart</option>
+                </select>
+            </div>
+
+            <div class="filters">
+                <h3>Filter</h3>
+                <label>
+                    <input type="radio" name="category" value="all" checked> Alle anzeigen
+                </label>
+                <label>
+                    <input type="radio" name="category" value="dexa"> Nur DEXA (Body Comp)
+                </label>
+                <label>
+                    <input type="radio" name="category" value="blood_lab"> Nur Blutlabore
+                </label>
+                
+                <hr style="margin: 10px 0; border: 0; border-top: 1px solid #ccc;">
+                <label style="color: #27ae60; font-weight: bold;">
+                    <input type="checkbox" id="filter-verified"> ✅ Nur KI-verifizierte
+                </label>
+            </div>
+
+            <div class="stats">
+                <p>Gefundene Anbieter: <span id="provider-count">0</span></p>
+            </div>
+            
+            <div class="architect-note">
+                <strong>Data Quality Note:</strong><br>
+                Providers marked with ⚠️ require manual verification.
+            </div>
+        </aside>
+
+        <main id="map"></main>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
