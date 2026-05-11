@@ -111,7 +111,7 @@ header p {
         height: 50vh; /* Map takes half screen on mobile */
     }
 }
-/* Neue Styles für das Dropdown */
+/* New Styles for Dropdown */
 .city-selector {
     background: var(--bg-color);
     padding: 15px;
@@ -133,7 +133,7 @@ header p {
     cursor: pointer;
 }
 
-/* Verbesserte Kontakt-Links im Popup */
+/* Kontakt-Links in Popup */
 .popup-contact {
     font-size: 0.9rem;
     margin: 8px 0;

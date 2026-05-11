@@ -1,7 +1,67 @@
 [
   {
-    "id": "blood_lab-ChIJ345WdDn3vEcRsp06d14EbL0",
-    "name": "Mein Direktlabor - Labor Mittelhessen",
+    "id": "dexa-ChIJ7RHy2iElv0cR0q2WYLykF_E",
+    "name": "time2move",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": true,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Aachener Str. 291, 50931 Köln, Deutschland",
+      "city": "Köln"
+    },
+    "coordinates": {
+      "lat": 50.93639,
+      "lng": 6.916449999999999
+    },
+    "contact": {
+      "phone": "0221 96438430",
+      "website": "http://www.time2move.de/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.605,
+      "verification_status": "ai_verified",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.52, Keywords: 0.80",
+      "last_updated": "2026-05-11T18:40:19.662085"
+    }
+  },
+  {
+    "id": "dexa-ChIJaeElPaXAl0cRPcLVAIv6CqY",
+    "name": "iQ athletik",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": true,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Radilostraße 47, 60489 Frankfurt am Main, Deutschland",
+      "city": "Frankfurt"
+    },
+    "coordinates": {
+      "lat": 50.1237685,
+      "lng": 8.6075147
+    },
+    "contact": {
+      "phone": "069 75659040",
+      "website": "http://www.iq-athletik.de/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.593,
+      "verification_status": "ai_verified",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.45, Keywords: 0.92",
+      "last_updated": "2026-05-11T18:41:36.094524"
+    }
+  },
+  {
+    "id": "blood_lab-ChIJ9RReYrBXqEcRhfev0DAl5Rk",
+    "name": "Mein Direktlabor - Labor Berlin-Spandau",
     "categories": [
       "blood_lab"
     ],
@@ -10,30 +70,28 @@
       "blood_test_self_pay": true
     },
     "address": {
-      "full_address": "Rudolf-Diesel-Straße 4, 35394 Gießen, Deutschland",
-      "city": "Essen",
-      "country": "DE"
+      "full_address": "Siemensdamm 50, 13629 Berlin, Deutschland",
+      "city": "Berlin"
     },
     "coordinates": {
-      "lat": 50.5904545,
-      "lng": 8.717994899999999
+      "lat": 52.535489299999995,
+      "lng": 13.2741213
     },
     "contact": {
-      "phone": "0641 300210",
-      "website": "https://www.meindirektlabor.de/standorte/standort/labor-giessen/"
+      "phone": "030 48526208",
+      "website": "https://www.meindirektlabor.de/"
     },
     "meta": {
-      "ai_confidence_score": 0.688,
+      "ai_confidence_score": 0.657,
       "verification_status": "ai_verified",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:29:14.082633",
-      "notes": "🤖 KI-Analyse (blood_lab): SBERT: 0.60, Keywords: 0.90."
+      "notes": "Analysis result (blood_lab): SBERT: 0.55, Keywords: 0.92",
+      "last_updated": "2026-05-11T18:34:11.846847"
     }
   },
   {
-    "id": "dexa-ChIJPWNh1eNWqEcRWbEyL_bXFFA",
-    "name": "Zentrum für Sportmedizin & Sport-Gesundheitspark Berlin e.V. - Charlottenburg",
+    "id": "dexa-ChIJJbC0engLvUcR45-8068MNAM",
+    "name": "Sportklinik Frankfurt",
     "categories": [
       "dexa"
     ],
@@ -42,57 +100,23 @@
       "blood_test_self_pay": false
     },
     "address": {
-      "full_address": "Hanns-Braun-Straße 1, 14053 Berlin, Deutschland",
-      "city": "Berlin",
-      "country": "DE"
+      "full_address": "Otto-Fleck-Schneise 10, 60528 Frankfurt am Main, Deutschland",
+      "city": "Frankfurt"
     },
     "coordinates": {
-      "lat": 52.519873,
-      "lng": 13.2413245
+      "lat": 50.067292699999996,
+      "lng": 8.6426537
     },
     "contact": {
-      "phone": "030 818120",
-      "website": "http://www.sportgesundheitspark.de/"
+      "phone": "069 6780090",
+      "website": "https://www.sportklinik-ffm.de/"
     },
     "meta": {
-      "ai_confidence_score": 0.6,
+      "ai_confidence_score": 0.619,
       "verification_status": "ai_verified",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:14:47.287077",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.50, Keywords: 0.83."
-    }
-  },
-  {
-    "id": "dexa-ChIJzXLOeX7LuEcRchGM27jxcYo",
-    "name": "PreventicsOne - Facharztzentrum für Prävention, Kardiologie und Sportmedizin",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": true,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Berliner Allee 61, 40212 Düsseldorf, Deutschland",
-      "city": "Düsseldorf",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 51.219178799999995,
-      "lng": 6.781624099999999
-    },
-    "contact": {
-      "phone": "0211 20978732",
-      "website": "https://preventics.one/?utm_source=local&utm_medium=organic&utm_campaign=gmb"
-    },
-    "meta": {
-      "ai_confidence_score": 0.723,
-      "verification_status": "ai_verified",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:25:49.770266",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.65, Keywords: 0.89."
+      "notes": "Analysis result (dexa): SBERT: 0.51, Keywords: 0.88",
+      "last_updated": "2026-05-11T18:41:35.052590"
     }
   },
   {
@@ -107,8 +131,7 @@
     },
     "address": {
       "full_address": "Bonner Str. 311-313, 50968 Köln, Deutschland",
-      "city": "Köln",
-      "country": "DE"
+      "city": "Köln"
     },
     "coordinates": {
       "lat": 50.90607,
@@ -119,17 +142,16 @@
       "website": "https://komsport.de/"
     },
     "meta": {
-      "ai_confidence_score": 0.661,
+      "ai_confidence_score": 0.646,
       "verification_status": "ai_verified",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:21:10.516262",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.58, Keywords: 0.86."
+      "notes": "Analysis result (dexa): SBERT: 0.55, Keywords: 0.86",
+      "last_updated": "2026-05-11T18:40:17.191099"
     }
   },
   {
-    "id": "dexa-ChIJoSUmDOwNvUcR93OEjJf3pkM",
-    "name": "Institut für Sportdiagnostik",
+    "id": "dexa-ChIJudH5khnfnUcRf0K-Jr6m2I0",
+    "name": "Orthopädiezentrum Theresie München, Dres. Schneider, Obersteiner & Kollegen",
     "categories": [
       "dexa"
     ],
@@ -138,30 +160,28 @@
       "blood_test_self_pay": false
     },
     "address": {
-      "full_address": "Sprendlinger Landstraße 181c, 63069 Offenbach am Main, Deutschland",
-      "city": "Frankfurt",
-      "country": "DE"
+      "full_address": "Theresienhöhe 13A, 80339 München, Deutschland",
+      "city": "München"
     },
     "coordinates": {
-      "lat": 50.082861,
-      "lng": 8.7442802
+      "lat": 48.133347199999996,
+      "lng": 11.545807799999999
     },
     "contact": {
-      "phone": "069 83838691",
-      "website": "http://www.sportdiagnostik.de/"
+      "phone": "089 55276020",
+      "website": "http://www.oz-theresie.de/"
     },
     "meta": {
-      "ai_confidence_score": 0.652,
+      "ai_confidence_score": 0.573,
       "verification_status": "ai_verified",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:22:30.393984",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.56, Keywords: 0.86."
+      "notes": "Analysis result (dexa): SBERT: 0.55, Keywords: 0.64",
+      "last_updated": "2026-05-11T18:36:46.370005"
     }
   },
   {
-    "id": "dexa-ChIJ4YBHIkaPsUcRZEldwSaCmnY",
-    "name": "revHealth - Sport- & Gesundheitsdiagnostik",
+    "id": "dexa-ChIJiSnhSWwXuUcR0H_LRaQf9a8",
+    "name": "preveo Dortmund",
     "categories": [
       "dexa"
     ],
@@ -170,30 +190,28 @@
       "blood_test_self_pay": false
     },
     "address": {
-      "full_address": "Mittelweg 161, 20148 Hamburg, Deutschland",
-      "city": "Hamburg",
-      "country": "DE"
+      "full_address": "Helenenbergweg 19, 44225 Dortmund, Deutschland",
+      "city": "Dortmund"
     },
     "coordinates": {
-      "lat": 53.5671274,
-      "lng": 9.9963911
+      "lat": 51.4893161,
+      "lng": 7.440022
     },
     "contact": {
-      "phone": "04102 695350",
-      "website": "http://www.revhealth.de/"
+      "phone": "0231 99955068",
+      "website": "http://www.preveo.de/"
     },
     "meta": {
-      "ai_confidence_score": 0.736,
+      "ai_confidence_score": 0.626,
       "verification_status": "ai_verified",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:19:37.553928",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.64, Keywords: 0.95."
+      "notes": "Analysis result (dexa): SBERT: 0.55, Keywords: 0.80",
+      "last_updated": "2026-05-11T18:46:32.606565"
     }
   },
   {
-    "id": "dexa-ChIJEWU-yoMMsEcRVFsmsnp46yM",
-    "name": "Medizinische Hochschule Hannover (MHH) Institut für Sportmedizin",
+    "id": "dexa-ChIJ7f-0WP8kv0cRQe2qo7x47gI",
+    "name": "STRONGMOVE GmbH - HYROX, Leistungsdiagnostik, Personal Training",
     "categories": [
       "dexa"
     ],
@@ -202,30 +220,28 @@
       "blood_test_self_pay": false
     },
     "address": {
-      "full_address": "Carl-Neuberg-Straße 1, 30625 Hannover, Deutschland",
-      "city": "Hannover",
-      "country": "DE"
+      "full_address": "Trierer Str. 51, 50674 Köln, Deutschland",
+      "city": "Köln"
     },
     "coordinates": {
-      "lat": 52.384265,
-      "lng": 9.8063019
+      "lat": 50.927292,
+      "lng": 6.941091999999999
     },
     "contact": {
-      "phone": "0511 5325499",
-      "website": "https://www.mhh.de/institute-zentren-forschungseinrichtungen/institut-fuer-sportmedizin"
+      "phone": null,
+      "website": "https://www.strongmove.de/"
     },
     "meta": {
-      "ai_confidence_score": 0.665,
+      "ai_confidence_score": 0.559,
       "verification_status": "ai_verified",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:16:47.304375",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.55, Keywords: 0.94."
+      "notes": "Analysis result (dexa): SBERT: 0.48, Keywords: 0.75",
+      "last_updated": "2026-05-11T18:40:35.870420"
     }
   },
   {
-    "id": "dexa-ChIJf8Oc6d86v0cR7tmDTKtQ93o",
-    "name": "Orthopädie und Sport - Praxis Dr. Jens Enneper",
+    "id": "dexa-ChIJzXLOeX7LuEcRchGM27jxcYo",
+    "name": "PreventicsOne - Facharztzentrum für Prävention, Kardiologie und Sportmedizin",
     "categories": [
       "dexa"
     ],
@@ -234,25 +250,53 @@
       "blood_test_self_pay": false
     },
     "address": {
-      "full_address": "Kirchweg 2a, 50858 Köln, Deutschland",
-      "city": "Köln",
-      "country": "DE"
+      "full_address": "Berliner Allee 61, 40212 Düsseldorf, Deutschland",
+      "city": "Düsseldorf"
     },
     "coordinates": {
-      "lat": 50.9373352,
-      "lng": 6.8659574
+      "lat": 51.219178799999995,
+      "lng": 6.781624099999999
     },
     "contact": {
-      "phone": "0221 8888920",
-      "website": "https://www.orthopaedieundsport.de/"
+      "phone": "0211 20978732",
+      "website": "https://preventics.one/?utm_source=local&utm_medium=organic&utm_campaign=gmb"
     },
     "meta": {
-      "ai_confidence_score": 0.563,
+      "ai_confidence_score": 0.694,
       "verification_status": "ai_verified",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:21:12.392722",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.46, Keywords: 0.80."
+      "notes": "Analysis result (dexa): SBERT: 0.61, Keywords: 0.89",
+      "last_updated": "2026-05-11T18:45:01.055714"
+    }
+  },
+  {
+    "id": "dexa-ChIJAWIG_kkXuUcRwm2G0N8rX3o",
+    "name": "mvz|krause - Privatpraxis Kardiologie Dortmund",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": true,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Medizinisches Zentrum 1. OG, Am Knappschaftskrankenhaus 1, 44309 Dortmund, Deutschland",
+      "city": "Dortmund"
+    },
+    "coordinates": {
+      "lat": 51.520526499999995,
+      "lng": 7.5338816
+    },
+    "contact": {
+      "phone": "0231 39720378",
+      "website": "https://kardio.mvz-krause.de/standort-dortmund/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.648,
+      "verification_status": "ai_verified",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.58, Keywords: 0.80",
+      "last_updated": "2026-05-11T18:46:39.871465"
     }
   },
   {
@@ -267,8 +311,7 @@
     },
     "address": {
       "full_address": "Veronikastraße 2, 45131 Essen, Deutschland",
-      "city": "Essen",
-      "country": "DE"
+      "city": "Essen"
     },
     "coordinates": {
       "lat": 51.4320124,
@@ -279,12 +322,281 @@
       "website": "http://www.bewegungsfelder.de/"
     },
     "meta": {
-      "ai_confidence_score": 0.615,
+      "ai_confidence_score": 0.601,
       "verification_status": "ai_verified",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:28:57.946171",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.49, Keywords: 0.92."
+      "notes": "Analysis result (dexa): SBERT: 0.47, Keywords: 0.92",
+      "last_updated": "2026-05-11T18:48:11.642607"
+    }
+  },
+  {
+    "id": "dexa-ChIJoZ_lFaolv0cRMVtf6VUomLs",
+    "name": "Radiologie 360° in Köln am Neumarkt",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": false,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Hahnenstraße 15, 50667 Köln, Deutschland",
+      "city": "Köln"
+    },
+    "coordinates": {
+      "lat": 50.935653800000004,
+      "lng": 6.9447487
+    },
+    "contact": {
+      "phone": "0221 9257500",
+      "website": "https://www.med360grad.de/radiologie-koeln-neumarkt/?utm_campaign=googlemybusiness-organic-radiologie_koeln_neumarkt"
+    },
+    "meta": {
+      "ai_confidence_score": 0.275,
+      "verification_status": "rejected_by_ai",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.39, Keywords: 0.00",
+      "last_updated": "2026-05-11T18:39:04.195214"
+    }
+  },
+  {
+    "id": "dexa-ChIJwRz-GjDDuEcRcqv6ZQCbSf4",
+    "name": "Radiologie Bredeneyer Tor",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": false,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Am Alfredusbad 8, 45133 Essen, Deutschland",
+      "city": "Essen"
+    },
+    "coordinates": {
+      "lat": 51.4215842,
+      "lng": 6.9994894
+    },
+    "contact": {
+      "phone": "0201 24670970",
+      "website": "https://www.radiologie-bredeneyer-tor.de/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.258,
+      "verification_status": "rejected_by_ai",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.37, Keywords: 0.00",
+      "last_updated": "2026-05-11T18:47:25.675934"
+    }
+  },
+  {
+    "id": "dexa-ChIJE3eGoD7KuEcRHyFyq9zevpQ",
+    "name": "Gemeinschaftspraxis für Orthopädie und Unfallchirurgie Dres. Linßen, Wiseman, Tandreu",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": false,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Graf-Adolf-Straße 18, 40212 Düsseldorf, Deutschland",
+      "city": "Düsseldorf"
+    },
+    "coordinates": {
+      "lat": 51.219151,
+      "lng": 6.7806009
+    },
+    "contact": {
+      "phone": "0211 378866",
+      "website": "https://www.orthopaedie-fachaerzte.de/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.284,
+      "verification_status": "rejected_by_ai",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.37, Keywords: 0.08",
+      "last_updated": "2026-05-11T18:44:35.199046"
+    }
+  },
+  {
+    "id": "dexa-ChIJN5TmsASLsUcRpnMVhZdLqt0",
+    "name": "Orthopädische Praxis Rahlstedt",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": false,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Helmut Steidl Pl. 1, 22143 Hamburg, Deutschland",
+      "city": "Hamburg"
+    },
+    "coordinates": {
+      "lat": 53.605159400000005,
+      "lng": 10.1552648
+    },
+    "contact": {
+      "phone": "040 6777070",
+      "website": "http://www.orthopaedie-rahlstedt.de/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.374,
+      "verification_status": "rejected_by_ai",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.39, Keywords: 0.33",
+      "last_updated": "2026-05-11T18:38:10.043891"
+    }
+  },
+  {
+    "id": "dexa-ChIJ0Zpha_tQqEcRCD1q9Q9IM9M",
+    "name": "Radiologie am Kurfürstendamm 37",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": false,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Kurfürstendamm 37, 10719 Berlin, Deutschland",
+      "city": "Berlin"
+    },
+    "coordinates": {
+      "lat": 52.5023664,
+      "lng": 13.322879799999999
+    },
+    "contact": {
+      "phone": "030 8892050",
+      "website": "https://radiologie-kudamm.de/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.349,
+      "verification_status": "rejected_by_ai",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.50, Keywords: 0.00",
+      "last_updated": "2026-05-11T18:32:17.627474"
+    }
+  },
+  {
+    "id": "dexa-ChIJwf1QZcsOvUcREosJKoXlyEo",
+    "name": "Radiologie Nuklearmedizin Adickesallee Medizinisches Versorgungszentrum GmbH",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": false,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Adickesallee 51-53, 60322 Frankfurt am Main, Deutschland",
+      "city": "Frankfurt"
+    },
+    "coordinates": {
+      "lat": 50.1319638,
+      "lng": 8.6760849
+    },
+    "contact": {
+      "phone": "069 9596160",
+      "website": "https://radiologie-nuklearmedizin-adickesallee.de/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.269,
+      "verification_status": "rejected_by_ai",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.38, Keywords: 0.00",
+      "last_updated": "2026-05-11T18:40:50.790435"
+    }
+  },
+  {
+    "id": "dexa-ChIJA3-9KhR2nkcRhuyhymrzkN0",
+    "name": "RADIOLOGIE MÜNCHEN im Rotkreuzklinikum",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": false,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Nymphenburger Str. 163, 80634 München, Deutschland",
+      "city": "München"
+    },
+    "coordinates": {
+      "lat": 48.1540691,
+      "lng": 11.5316229
+    },
+    "contact": {
+      "phone": "089 18939830",
+      "website": "https://www.radiologie-muenchen.de/standorte/rotkreuzplatz"
+    },
+    "meta": {
+      "ai_confidence_score": 0.355,
+      "verification_status": "rejected_by_ai",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.34, Keywords: 0.40",
+      "last_updated": "2026-05-11T18:36:12.442483"
+    }
+  },
+  {
+    "id": "dexa-ChIJ9YZWO-e1uEcR3PxdYNg8SXI",
+    "name": "Röntgeninstitut am Heerdter Krankenhaus | Radiologie, MRT, CT & mehr",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": false,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Am Heerdter Krankenhaus 2, 40549 Düsseldorf, Deutschland",
+      "city": "Düsseldorf"
+    },
+    "coordinates": {
+      "lat": 51.2314763,
+      "lng": 6.7278307999999996
+    },
+    "contact": {
+      "phone": "0211 496695000",
+      "website": "http://www.roentgeninstitut.de/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.301,
+      "verification_status": "rejected_by_ai",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.43, Keywords: 0.00",
+      "last_updated": "2026-05-11T18:44:57.951091"
+    }
+  },
+  {
+    "id": "dexa-ChIJIZnXFK5Xn0cRHs3Alq4RnaE",
+    "name": "Dr. med. Peter Hormes | Privatpraxis für Orthopädie und Osteopathie",
+    "categories": [
+      "dexa"
+    ],
+    "services": {
+      "dexa_body_composition": false,
+      "blood_test_self_pay": false
+    },
+    "address": {
+      "full_address": "Burgstraße 7, 90403 Nürnberg, Deutschland",
+      "city": "Nürnberg"
+    },
+    "coordinates": {
+      "lat": 49.4561851,
+      "lng": 11.0771632
+    },
+    "contact": {
+      "phone": "0911 52855440",
+      "website": "http://www.dr-hormes.de/"
+    },
+    "meta": {
+      "ai_confidence_score": 0.351,
+      "verification_status": "rejected_by_ai",
+      "verified_manually": false,
+      "notes": "Analysis result (dexa): SBERT: 0.42, Keywords: 0.20",
+      "last_updated": "2026-05-11T18:49:01.936812"
     }
   },
   {
@@ -295,12 +607,11 @@
     ],
     "services": {
       "dexa_body_composition": false,
-      "blood_test_self_pay": true
+      "blood_test_self_pay": false
     },
     "address": {
       "full_address": "Horbeller Str. 18-20, 50858 Köln, Deutschland",
-      "city": "Köln",
-      "country": "DE"
+      "city": "Köln"
     },
     "coordinates": {
       "lat": 50.917168399999994,
@@ -311,81 +622,16 @@
       "website": "https://www.wisplinghoff.de/"
     },
     "meta": {
-      "ai_confidence_score": 0.578,
-      "verification_status": "ai_verified",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:21:36.874422",
-      "notes": "🤖 KI-Analyse (blood_lab): SBERT: 0.54, Keywords: 0.67."
-    }
-  },
-  {
-    "id": "dexa-ChIJh8jxipzDmUcRkaFONuUSiZM",
-    "name": "Sportpraxis Stuttgart Dr. med. Florian Pfalzer & Dr. med. Gerhard Zeithammel",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": true,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Bockelstraße 146, 70619 Stuttgart, Deutschland",
-      "city": "Stuttgart",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 48.7402016,
-      "lng": 9.226566
-    },
-    "contact": {
-      "phone": "0711 4141205",
-      "website": "https://www.sportpraxis-stuttgart.de/"
-    },
-    "meta": {
-      "ai_confidence_score": 0.624,
-      "verification_status": "ai_verified",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:23:56.022109",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.56, Keywords: 0.77."
-    }
-  },
-  {
-    "id": "blood_lab-ChIJA59SDyzDuEcRgszc1zjTzt0",
-    "name": "Alfried Krupp Krankenhaus in Rüttenscheid",
-    "categories": [
-      "blood_lab"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Alfried-Krupp-Straße 21, 45131 Essen, Deutschland",
-      "city": "Essen",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 51.4264442,
-      "lng": 7.007655199999999
-    },
-    "contact": {
-      "phone": "0201 4341",
-      "website": "https://www.krupp-krankenhaus.de/essen-ruettenscheid.html"
-    },
-    "meta": {
-      "ai_confidence_score": 0.321,
+      "ai_confidence_score": 0.517,
       "verification_status": "rejected_by_ai",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:29:20.826297",
-      "notes": "🤖 KI-Analyse (blood_lab): SBERT: 0.46, Keywords: 0.00."
+      "notes": "Analysis result (blood_lab): SBERT: 0.45, Keywords: 0.67",
+      "last_updated": "2026-05-11T18:40:46.309102"
     }
   },
   {
-    "id": "dexa-ChIJ0-5a9fFXn0cRkCU3lIeW340",
-    "name": "RNZ Radiologie & Nuklearmedizin (St. Theresien-Krankenhaus)",
+    "id": "dexa-ChIJCyZTsox1nkcRxd0FyXUEH1E",
+    "name": "Dr. med. Joachim Döring",
     "categories": [
       "dexa"
     ],
@@ -394,313 +640,23 @@
       "blood_test_self_pay": false
     },
     "address": {
-      "full_address": "Mommsenstraße 24, 90491 Nürnberg, Deutschland",
-      "city": "Nürnberg",
-      "country": "DE"
+      "full_address": "Theatinerstraße 36, 80333 München, Deutschland",
+      "city": "München"
     },
     "coordinates": {
-      "lat": 49.4696615,
-      "lng": 11.1100547
+      "lat": 48.1404183,
+      "lng": 11.5764587
     },
     "contact": {
-      "phone": "0911 9512980",
-      "website": "https://www.rnz-radiologie.de/"
+      "phone": "089 222266",
+      "website": "https://orthopaedie-theatinerstrasse.de/aerzte/dr-doering/"
     },
     "meta": {
-      "ai_confidence_score": 0.206,
+      "ai_confidence_score": 0.447,
       "verification_status": "rejected_by_ai",
       "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:29:26.235330",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.29, Keywords: 0.00."
-    }
-  },
-  {
-    "id": "dexa-ChIJ4xxdieYkv0cR8unPz6zZyyc",
-    "name": "Uniklinik Köln",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Kerpener Str. 62, 50937 Köln, Deutschland",
-      "city": "Köln",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 50.9243699,
-      "lng": 6.9194606
-    },
-    "contact": {
-      "phone": "0221 4780",
-      "website": "https://www.uk-koeln.de/"
-    },
-    "meta": {
-      "ai_confidence_score": -0.042,
-      "verification_status": "rejected_by_ai",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:20:14.746079",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: -0.06, Keywords: 0.00."
-    }
-  },
-  {
-    "id": "dexa-ChIJn1FbxFIJvUcRw5VtqBR5-sM",
-    "name": "Beyond Imaging Diagnostikzentrum",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Bockenheimer Landstraße 23, 60325 Frankfurt am Main, Deutschland",
-      "city": "Frankfurt",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 50.1157417,
-      "lng": 8.667940999999999
-    },
-    "contact": {
-      "phone": "069 677016300",
-      "website": "https://beyond-imaging.com/standorte/beyond-imaging-frankfurt-am-main/?utm_source=google&utm_medium=gmb&utm_campaign=profile"
-    },
-    "meta": {
-      "ai_confidence_score": 0.266,
-      "verification_status": "rejected_by_ai",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:21:46.911522",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.38, Keywords: 0.00."
-    }
-  },
-  {
-    "id": "dexa-ChIJaaIzVlYxcEERc6ca6LRRDbI",
-    "name": "Praxis für Orthopädie, Sportmedizin, Radiologie und Gefäßdiagnostik",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Körner Hellweg 74, 44143 Dortmund, Deutschland",
-      "city": "Dortmund",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 51.516162099999995,
-      "lng": 7.506438599999999
-    },
-    "contact": {
-      "phone": "0231 13715300",
-      "website": "http://www.orthopaede-dortmund.net/"
-    },
-    "meta": {
-      "ai_confidence_score": 0.17,
-      "verification_status": "rejected_by_ai",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:27:02.226984",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.24, Keywords: 0.00."
-    }
-  },
-  {
-    "id": "dexa-ChIJeznlt-YWuUcRLZxjFQt-gI0",
-    "name": "Praxisgemeinschaft für Radiologie & Nuklearmedizin",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Europapl. 7, 44269 Dortmund, Deutschland",
-      "city": "Dortmund",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 51.5014976,
-      "lng": 7.5252330999999995
-    },
-    "contact": {
-      "phone": "0231 7250500",
-      "website": "http://www.die-radiologen.de/"
-    },
-    "meta": {
-      "ai_confidence_score": 0.354,
-      "verification_status": "rejected_by_ai",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:26:46.915838",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.51, Keywords: 0.00."
-    }
-  },
-  {
-    "id": "dexa-ChIJI9nyYq90sEcR4DBeyaPAttw",
-    "name": "Radiologie am Raschplatz",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Rundestraße 10, 30161 Hannover, Deutschland",
-      "city": "Hannover",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 52.3795089,
-      "lng": 9.7402391
-    },
-    "contact": {
-      "phone": "0511 313025",
-      "website": "https://www.hannover-radiologie.de/"
-    },
-    "meta": {
-      "ai_confidence_score": 0.315,
-      "verification_status": "rejected_by_ai",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:15:37.508893",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.45, Keywords: 0.00."
-    }
-  },
-  {
-    "id": "dexa-ChIJ10Q12t0ZuUcRm9gPxfZ99jY",
-    "name": "Klinikum Dortmund gGmbH - Klinikzentrum Mitte",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Beurhausstraße 40, 44137 Dortmund, Deutschland",
-      "city": "Dortmund",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 51.508263299999996,
-      "lng": 7.456873000000001
-    },
-    "contact": {
-      "phone": "0231 9530",
-      "website": "http://www.klinikumdo.de/"
-    },
-    "meta": {
-      "ai_confidence_score": 0.268,
-      "verification_status": "rejected_by_ai",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:27:08.809900",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.38, Keywords: 0.00."
-    }
-  },
-  {
-    "id": "blood_lab-ChIJM9p9oNXfnUcRrALGgg2Ux4w",
-    "name": "Labor Staber München",
-    "categories": [
-      "blood_lab"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Paul-Wassermann-Straße 1, 81829 München, Deutschland",
-      "city": "München",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 48.1375001,
-      "lng": 11.685813399999999
-    },
-    "contact": {
-      "phone": "089 6302380",
-      "website": "http://www.labor-staber.de/"
-    },
-    "meta": {
-      "ai_confidence_score": 0.0,
-      "verification_status": "rejected_by_ai",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:18:17.576418",
-      "notes": "Zu wenig Text für KI-Analyse."
-    }
-  },
-  {
-    "id": "dexa-ChIJB76kthAMvUcRbOOetHW0A7g",
-    "name": "Orthopädie Frankfurt",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Ziegelhüttenweg 1-3, 60598 Frankfurt am Main, Deutschland",
-      "city": "Frankfurt",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 50.0946578,
-      "lng": 8.682145300000002
-    },
-    "contact": {
-      "phone": "069 623477",
-      "website": "https://www.orthopaedie-frankfurt-sachsenhausen.de/"
-    },
-    "meta": {
-      "ai_confidence_score": 0.0,
-      "verification_status": "rejected_by_ai",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:22:00.200528",
-      "notes": "Zu wenig Text für KI-Analyse."
-    }
-  },
-  {
-    "id": "dexa-ChIJ93YSOa4OvUcRTuv7PFmTtkQ",
-    "name": "radiomedicum GbR",
-    "categories": [
-      "dexa"
-    ],
-    "services": {
-      "dexa_body_composition": false,
-      "blood_test_self_pay": false
-    },
-    "address": {
-      "full_address": "Rahmhofstraße 2, 60313 Frankfurt am Main, Deutschland",
-      "city": "Frankfurt",
-      "country": "DE"
-    },
-    "coordinates": {
-      "lat": 50.115739,
-      "lng": 8.678243799999999
-    },
-    "contact": {
-      "phone": "069 7580860",
-      "website": "http://www.radiomedicum.de/"
-    },
-    "meta": {
-      "ai_confidence_score": 0.282,
-      "verification_status": "rejected_by_ai",
-      "verified_manually": false,
-      "source": "Google API + Hybrid NLP",
-      "last_updated": "2026-05-10T22:21:43.977269",
-      "notes": "🤖 KI-Analyse (dexa): SBERT: 0.40, Keywords: 0.00."
+      "notes": "Analysis result (dexa): SBERT: 0.35, Keywords: 0.67",
+      "last_updated": "2026-05-11T18:36:47.547969"
     }
   }
 ]
