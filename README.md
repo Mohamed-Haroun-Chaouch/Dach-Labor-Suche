@@ -1,6 +1,6 @@
 # Laborsuche DACH - KI-gestützte Daten-Pipeline 🏥
 
-Eine interaktive Karten-Applikation zur Suche von verifizierten Anbietern für DEXA Body Composition Scans und Selbstzahler-Blutuntersuchungen. Erstellt für die Werkstudentenstelle bei Bahmann Coaching.
+Eine interaktive Karten-Applikation zur Suche von verifizierten Anbietern für DEXA Body Composition Scans und Selbstzahler-Blutuntersuchungen.
 
 ## 🧠 Strategie & Fokus
 
